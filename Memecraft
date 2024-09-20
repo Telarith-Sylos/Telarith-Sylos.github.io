@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memecraft</title>
+    <link href="style.css" rel="stylesheet"> <!-- Link to your main CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Memecraft</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="memetic-records.html">Memetic Records</a></li>
+                <li><a href="technomancy.html">Technomancy</a></li>
+                <li><a href="oneiromancy.html">Oneiromancy</a></li> <!-- Link to Oneiromancy -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to Memecraft</h2>
+            <p>Memecraft is dedicated to exploring the creation, evolution, and impact of memes in the digital age. Dive into the <a href="memetic-records.html">Memetic Records</a> to see the latest developments.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Telarith Sylos, 2024</p>
+    </footer>
+</body>
+</html>
