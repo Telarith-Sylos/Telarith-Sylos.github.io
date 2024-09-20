@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Site</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .enter-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is my first GitHub Pages site.</p>
+    <div class="container">
+        <h1>Hello World!</h1>
+        <p>This is my pre-main landing page.</p>
+        <button class="enter-button" onclick="location.href='main.html'">Enter Site</button>
+    </div>
 </body>
 </html>
