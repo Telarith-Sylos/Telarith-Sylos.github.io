@@ -3,15 +3,14 @@
 const blogEntries = [
     {
         title: "Entry 1 - AI Thoughts",
-        date: "September 20, 2024",
-        content: "Your text for the blog entry goes here. Write about AI and your technomancy experiences."
+        date: "September 21, 2024",
+        content: "In this entry, I explore my thoughts on AI and its influence on technomancy..."
     },
     {
         title: "Entry 2 - The Future of AI",
-        date: "October 5, 2024",
-        content: "Here you can discuss where you see AI going in the future and how it relates to technomancy."
+        date: "October 1, 2024",
+        content: "This entry looks into where I believe AI is heading in the next decade..."
     }
-    // Add more entries here
 ];
 
 function loadBlogEntries() {
@@ -19,7 +18,7 @@ function loadBlogEntries() {
     blogEntries.forEach(entry => {
         const entryDiv = document.createElement('div');
         entryDiv.classList.add('blog-entry');
-        
+
         const entryTitle = document.createElement('h2');
         entryTitle.textContent = entry.title;
 
