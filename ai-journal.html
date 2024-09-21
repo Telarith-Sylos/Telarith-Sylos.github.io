@@ -9,38 +9,32 @@
         body {
             font-family: 'Roboto', sans-serif;
             background-color: #2e2e2e; /* Dark background */
-            color: #e0e0e0;
+            color: #e0e0e0; /* Light text */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #4CAF50; /* Technomancy theme color */
+            background-color: #4CAF50; /* Doctor Doom green */
             padding: 20px;
             text-align: center;
         }
         h1 {
             font-size: 2.5em;
-            color: gold; /* Regal accent */
+            color: gold; /* Regal color */
         }
         main {
             padding: 20px;
             max-width: 800px;
             margin: auto;
         }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #4CAF50;
-            color: white;
-        }
         .blog-entry {
-            background-color: #3e3e3e;
+            background-color: #3e3e3e; /* Slightly lighter background */
             padding: 15px;
             margin-bottom: 20px;
             border-radius: 8px;
         }
         .blog-entry h2 {
-            color: gold;
+            color: gold; /* Matching header */
         }
     </style>
 </head>
@@ -50,17 +44,20 @@
     </header>
 
     <main>
-        <!-- Example blog entry -->
-        <div class="blog-entry">
-            <h2>Entry 1 - AI Thoughts</h2>
-            <p>[Date]</p>
-            <p>Your text for the blog entry goes here. Write about AI and your technomancy experiences.</p>
+        <div id="blog-container">
+            <!-- Blog entries will be dynamically loaded here -->
         </div>
-        <!-- Add more entries below -->
     </main>
 
     <footer>
         <p>&copy; Telarith Sylos, 2024</p>
     </footer>
+
+    <!-- Link to the JavaScript file that handles the blog entries -->
+    <script src="ai-journal-entries.js"></script>
+    <script>
+        // Function to load blog entries dynamically when the page loads
+        loadBlogEntries();
+    </script>
 </body>
 </html>
